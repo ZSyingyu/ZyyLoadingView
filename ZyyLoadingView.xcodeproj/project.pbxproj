@@ -15,6 +15,9 @@
 		10A5D0381F395392006736C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A5D0361F395392006736C5 /* LaunchScreen.storyboard */; };
 		10A5D0431F395392006736C5 /* ZyyLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5D0421F395392006736C5 /* ZyyLoadingViewTests.m */; };
 		10A5D04E1F395392006736C5 /* ZyyLoadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5D04D1F395392006736C5 /* ZyyLoadingViewUITests.m */; };
+		10A5D0601F39587B006736C5 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5D05D1F39587B006736C5 /* LoadingView.m */; };
+		10A5D0611F39587B006736C5 /* ShapeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5D05F1F39587B006736C5 /* ShapeLoadingView.m */; };
+		10A5D0641F395DB7006736C5 /* ZyyTestLoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5D0631F395DB7006736C5 /* ZyyTestLoadingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		10A5D0491F395392006736C5 /* ZyyLoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZyyLoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A5D04D1F395392006736C5 /* ZyyLoadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZyyLoadingViewUITests.m; sourceTree = "<group>"; };
 		10A5D04F1F395392006736C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A5D05C1F39587B006736C5 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		10A5D05D1F39587B006736C5 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		10A5D05E1F39587B006736C5 /* ShapeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLoadingView.h; sourceTree = "<group>"; };
+		10A5D05F1F39587B006736C5 /* ShapeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLoadingView.m; sourceTree = "<group>"; };
+		10A5D0621F395DB7006736C5 /* ZyyTestLoadingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZyyTestLoadingVC.h; sourceTree = "<group>"; };
+		10A5D0631F395DB7006736C5 /* ZyyTestLoadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZyyTestLoadingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		10A5D01C1F395392006736C5 = {
 			isa = PBXGroup;
 			children = (
+				10A5D05B1F39587B006736C5 /* 58LoadingView */,
 				10A5D0271F395392006736C5 /* ZyyLoadingView */,
 				10A5D0411F395392006736C5 /* ZyyLoadingViewTests */,
 				10A5D04C1F395392006736C5 /* ZyyLoadingViewUITests */,
@@ -105,6 +115,8 @@
 				10A5D02C1F395392006736C5 /* AppDelegate.m */,
 				10A5D02E1F395392006736C5 /* ViewController.h */,
 				10A5D02F1F395392006736C5 /* ViewController.m */,
+				10A5D0621F395DB7006736C5 /* ZyyTestLoadingVC.h */,
+				10A5D0631F395DB7006736C5 /* ZyyTestLoadingVC.m */,
 				10A5D0311F395392006736C5 /* Main.storyboard */,
 				10A5D0341F395392006736C5 /* Assets.xcassets */,
 				10A5D0361F395392006736C5 /* LaunchScreen.storyboard */,
@@ -138,6 +150,17 @@
 				10A5D04F1F395392006736C5 /* Info.plist */,
 			);
 			path = ZyyLoadingViewUITests;
+			sourceTree = "<group>";
+		};
+		10A5D05B1F39587B006736C5 /* 58LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				10A5D05C1F39587B006736C5 /* LoadingView.h */,
+				10A5D05D1F39587B006736C5 /* LoadingView.m */,
+				10A5D05E1F39587B006736C5 /* ShapeLoadingView.h */,
+				10A5D05F1F39587B006736C5 /* ShapeLoadingView.m */,
+			);
+			path = 58LoadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A5D0641F395DB7006736C5 /* ZyyTestLoadingVC.m in Sources */,
+				10A5D0611F39587B006736C5 /* ShapeLoadingView.m in Sources */,
 				10A5D0301F395392006736C5 /* ViewController.m in Sources */,
+				10A5D0601F39587B006736C5 /* LoadingView.m in Sources */,
 				10A5D02D1F395392006736C5 /* AppDelegate.m in Sources */,
 				10A5D02A1F395392006736C5 /* main.m in Sources */,
 			);
@@ -427,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G3GS9D6JL;
 				INFOPLIST_FILE = ZyyLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZyyLoadingView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G3GS9D6JL;
 				INFOPLIST_FILE = ZyyLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zyy.ZyyLoadingView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
